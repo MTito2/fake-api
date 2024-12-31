@@ -3,16 +3,37 @@
     { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
     { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
     { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
-    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" },
+    { "id": 5, "titulo": "Introdução ao Node.js", "url": "https://www.codeprestige.com.br/cursos/nodejs" },
+    { "id": 6, "titulo": "Avançado em JavaScript", "url": "https://www.udemy.com/advanced-javascript/" },
+    { "id": 7, "titulo": "Vue.js para Iniciantes", "url": "https://www.udemy.com/vuejs-for-beginners/" },
+    { "id": 8, "titulo": "Fundamentos de TypeScript", "url": "https://www.codeprestige.com.br/cursos/typescript" },
+    { "id": 9, "titulo": "Angular 11 - Dominando o Framework", "url": "https://www.udemy.com/angular-11-masterclass/" },
+    { "id": 10, "titulo": "Desenvolvimento Fullstack com React", "url": "https://www.codeprestige.com.br/cursos/fullstack-react" }
   ],
   "alunos": [
-    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
-    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
-    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
-    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
-    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
+    { "id": 1, "nome": "Marcela da Silva", "curso": 1, "data_matricula": "2023-05-10", "status": "ativo" },
+    { "id": 2, "nome": "José Luiz Felipe", "curso": 2, "data_matricula": "2023-06-15", "status": "inativo" },
+    { "id": 3, "nome": "Paulo Rogério", "curso": 3, "data_matricula": "2023-07-20", "status": "ativo" },
+    { "id": 4, "nome": "Felipe da Cunha", "curso": 1, "data_matricula": "2023-05-22", "status": "ativo" },
+    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1, "data_matricula": "2023-05-23", "status": "ativo" },
+    { "id": 6, "nome": "Ricardo Almeida", "curso": 5, "data_matricula": "2023-08-01", "status": "ativo" },
+    { "id": 7, "nome": "Amanda Souza", "curso": 7, "data_matricula": "2023-09-10", "status": "inativo" },
+    { "id": 8, "nome": "Bruno Martins", "curso": 6, "data_matricula": "2023-06-25", "status": "ativo" },
+    { "id": 9, "nome": "Karine Oliveira", "curso": 8, "data_matricula": "2023-07-05", "status": "ativo" },
+    { "id": 10, "nome": "Carlos Eduardo", "curso": 9, "data_matricula": "2023-06-30", "status": "inativo" },
+    { "id": 11, "nome": "Júlia Santos", "curso": 10, "data_matricula": "2023-10-15", "status": "ativo" },
+    { "id": 12, "nome": "Fernanda Costa", "curso": 4, "data_matricula": "2023-09-01", "status": "ativo" },
+    { "id": 13, "nome": "Thiago Gomes", "curso": 6, "data_matricula": "2023-06-15", "status": "ativo" },
+    { "id": 14, "nome": "Daniela Lima", "curso": 3, "data_matricula": "2023-07-10", "status": "ativo" },
+    { "id": 15, "nome": "Pedro Henrique", "curso": 2, "data_matricula": "2023-08-20", "status": "ativo" }
   ],
   "empresa": {
-    "nome": "Code Prestige"
+    "nome": "Code Prestige",
+    "endereco": "Rua das Tecnologias, 123, São Paulo, SP",
+    "telefone": "+55 11 4002-8922",
+    "email": "contato@codeprestige.com.br",
+    "site": "https://www.codeprestige.com.br",
+    "fundada_em": "2015-03-10"
   }
 }
